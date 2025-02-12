@@ -1,12 +1,14 @@
 import Header from "./Components/Header"
+import Main from "./Components/Main"
+import { DataProvider } from "./Context/DataContext"
 
 export default function App(){
 
   return (
     
-    <div>
+    <DataProvider>
       <Header/>
-      <h1>ciao</h1>
-    </div>
+      <Main/>
+    </DataProvider>
   )
 }
