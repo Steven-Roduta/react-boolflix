@@ -1,0 +1,12 @@
+import Header from "./Components/Header"
+
+export default function App(){
+
+  return (
+    
+    <div>
+      <Header/>
+      <h1>ciao</h1>
+    </div>
+  )
+}
