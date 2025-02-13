@@ -10,7 +10,7 @@ export default function Header(){
 
         <>
         <header>
-        <h1>BOOLFLIX</h1>
+        <div className="boolflix"></div>
             <Searchbar/>
 
         <div className="list">

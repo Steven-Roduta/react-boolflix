@@ -34,10 +34,12 @@ export default function Main() {
                    tablet e smartphone.
             
                 </p>
-                <div className="list-second">
 
-                    <h3>MOVIES</h3>
+                <div className="list-second">
+                   
+                <h3>MOVIES</h3>
                     <nav>
+                   
                         <ul>
                             {movies.map(movie => (
                                 <li key={movie.id}> 
@@ -51,7 +53,7 @@ export default function Main() {
                                     <div className="titolo">
                                     <ul>
                                         <li>Titlo: {movie.title}</li>
-                                        <li>Titolo Originale: {movie.original_title}</li>
+                                    
                                     </ul>
                                     </div>
 
@@ -78,10 +80,11 @@ export default function Main() {
 
                 <div className="list-third">
 
-                    <h3>SERIES</h3>
 
                     <nav>
+                    <h3>SERIES</h3>
                     <ul>
+                    
                         {series?.length > 0 ? (
                          series.map(serie => (
                             <li key={'serie-'+serie.id}> 
@@ -89,10 +92,10 @@ export default function Main() {
                                 src={`https://image.tmdb.org/t/p/w500${serie.poster_path}`} 
                                 alt={serie.name} 
                             />
-                        <div className="titolo">
+                        <div className="titolo-third">
                             <ul>
                                 <li>Titolo: {serie.name}</li>
-                                <li>Titolo Originale: {serie.original_name}</li>
+                            
                             </ul>
                         </div>
                         <div className="star">
