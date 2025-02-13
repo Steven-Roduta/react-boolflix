@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
 /* ---------------
   RESET
 -----------------*/
@@ -11,12 +11,18 @@
 /* ------------
   BODY
 ---------------*/
-body{
-  font-size: 1.1rem;
-  font-family: "Montserrat" , sans-serif;
-  color: #111111;
-  background-color: #e4c6ab;
-}
+body {
+  font-family: 'Arial', sans-serif;   
+  background-color: #181818;     
+  color: white;                   
+  margin: 0;                        
+  padding: 0;                       
+  line-height: 1.6;                 
+  display: flex;                    
+  flex-direction: column;         
+  min-height: 100vh;  
+}        
+
 
 
 /* -----------------
@@ -31,10 +37,27 @@ body{
 /* --------------
   BUTTON
 ----------------*/
+.search-container{
+  margin: 5px;
+  float: right;
+  position: relative;
+  bottom: 63px;
+}
+
+
 button{
   width: 60px;
-  padding: 5px;
+  padding: 2px;
   margin: 5px;
+  float: right;
+  position: relative;
+  bottom:2px;
+
+}
+
+button:hover{
+  background-color: #cc0008;
+  transition: color 0.3s ease;
 }
 
 
@@ -61,6 +84,67 @@ img{
   gap: 10px;
 }
 
+.ora{
+  background-image: url(../public/img/abbonati.webp);
+  background-size:cover;
+  float: right;
+  width: 550px;
+  height: 310px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+/* ------------
+  HEADER
+---------------*/
+header{
+  background-color: #000000; 
+  width: 100%; 
+  height: 100px; 
+  color: #ffffff; 
+}
+
+h1{
+  margin: 10px;
+  color: #cc0008;
+  font-size: 55px;
+}
+
+h2{
+  font-size: 40px;
+  margin-top: 10px;
+  margin-left: 113px;
+}
+
+p{
+  width:400px;
+  margin-left:113px;
+  margin-bottom: 70px;
+}
+
+.list ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+nav a {
+  text-decoration: none; 
+  color: white; 
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease; 
+  position: relative;
+  bottom: 226px;
+  left: 1px;
+}
+
+a:hover {
+  color: #cc0008;
+}
+
+
 /* -------------
   MAIN
 ---------------*/
@@ -69,4 +153,5 @@ img{
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 180px;
 }

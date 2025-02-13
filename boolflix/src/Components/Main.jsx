@@ -9,7 +9,17 @@ export default function Main() {
         <>
             <main className="cotainer">
 
-                <h2>Movie List</h2>
+                <div className="ora"></div>
+
+                <h2>ONLY ON BOOLFLIX</h2>
+                <p>Boolflix è una piattaforma di streaming che offre una vasta gamma di film,
+                   serie TV, documentari e programmi originali.
+                   Gli utenti possono guardare contenuti on-demand,
+                   in qualsiasi momento e su una varietà di dispositivi,
+                   come smart TV, computer,
+                   tablet e smartphone.
+            
+                </p>
                 <div className="list">
                     <nav>
                         <ul>
