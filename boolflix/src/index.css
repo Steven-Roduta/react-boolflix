@@ -51,12 +51,16 @@ button{
   margin: 5px;
   float: right;
   position: relative;
-  bottom:2px;
+  bottom:1px;
+  background-color: #cc0008;
+  color: #ffffff;
+  border: 1px;
 
 }
 
 button:hover{
-  background-color: #cc0008;
+  background-color: #ffffff;
+  color: #000000;
   transition: color 0.3s ease;
 }
 
@@ -85,7 +89,7 @@ img{
 }
 
 .ora{
-  background-image: url(../public/img/abbonati.webp);
+  background-image: url(../img/abbonati.webp);
   background-size:cover;
   float: right;
   width: 550px;
@@ -125,8 +129,8 @@ p{
   list-style-type: none;
   display: flex;
   justify-content: center;
-  gap: 20px;
-  
+  gap: 50px;
+
 }
 
 nav a {
@@ -136,8 +140,8 @@ nav a {
   font-size: 18px;
   transition: color 0.3s ease; 
   position: relative;
-  bottom: 226px;
-  left: 1px;
+  bottom: 56px;
+  left: 100px;
 }
 
 a:hover {
@@ -149,9 +153,65 @@ a:hover {
   MAIN
 ---------------*/
 
-.list ul{
+.list-second{
+
+  margin: 100px;
+  margin-top: 200px;
+}
+
+
+.list-second ul{
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 180px;
+  flex-direction: row;
+}
+
+.titolo ul{
+
+  display: flex;
+  flex-direction:column;
+  font-size: 15px;
+  
+}
+
+i img{
+  height: 10px;
+  width: 10px;
+  color: #ffffff;
+}
+
+.star{
+  display: flex;
+  flex-direction: row;
+}
+
+/* list-third */
+
+.list-third{
+
+  margin: 50px;
+  margin-top: 200px;
+  gap: 20px;
+}
+
+
+.list-third ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.list-third .titolo ul{
+
+  display: block;
+  flex-direction:column;
+  font-size: 15px;
+  
+}
+
+h3{
+  margin: 10px;
+  font-size: 35px;
 }

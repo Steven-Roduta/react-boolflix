@@ -13,7 +13,6 @@ export default function Header(){
         <h1>BOOLFLIX</h1>
             <Searchbar/>
 
-            <div className="logo"></div>
         <div className="list">
             <nav>
                 <ul>
